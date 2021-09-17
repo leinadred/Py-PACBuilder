@@ -1,0 +1,42 @@
+{"general": {
+    "v_debug": "True"
+    },
+    "destination_domains":{
+        "destdomain_1" : {
+        "destdomain_name":"",
+        "destdomain_description":"",
+        "pac_action":   {
+            "act_dnsresolve": "",
+            "act_todo":""
+            }
+        }
+    },
+    "destination_ipscopes":{
+        "ipscope_1": {
+        "ipscope_cidr":"",
+        "ipscope_description":"",
+        "pac_action":   {
+            "act_dnsresolve": "",
+            "act_todo":""
+            }
+        }
+    },
+    "feeds": {
+        "feed_1": {
+            "feed_name": "MS Office 365",
+            "feed_infourl": "none",
+            "feed_uuid": "False",
+            "feed_url":"https://endpoints.office.com/changes/worldwide/0000000000?clientrequestid=b10c5ed1-bad1-445f-b386-b919946339a7",
+            "feed_format":"json",
+            "feed_option":"",
+            "feed_authuser":"",
+            "feed_authpass":"",
+            "feed_authkey":"",
+            "feed_guid":"d5db1792-4598-15d2-9954-8f99f0f29656",
+            "pac_action":   {
+                "act_dnsresolve": "",
+                "act_todo":""
+                }
+            }
+        }
+    }
