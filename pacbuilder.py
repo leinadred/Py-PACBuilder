@@ -29,7 +29,7 @@ def fun_setup():
     except:
         print("parameter file not found or invalid, please define! Downloading template, please adjust!")
         with open("params.json", "w") as paramsfile:
-            tmpl_url = 'https://cloudfs.ackme.tech/index.php/s/TxyExbDQzsTeCTm/download/params.json_tmpl'
+            tmpl_url = 'https://raw.githubusercontent.com/leinadred/Py-PACBuilder/main/params.json_tmpl'
             r = requests.get(tmpl_url, verify=False)
             with open("params.json_tmpl","w") as file:
                 file.write(r.content)
