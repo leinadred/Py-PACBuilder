@@ -23,10 +23,15 @@ os,
 datetime
 
 # Usage
+- clone repository
+- create a params.json (copy example/template file and edit it on your needs)
+
 command line:
 python ./pacbuilder.py -o <destinationfilename>
 (if -o not given, script will generate a name with timestamp)
 
--v (to come - add verbosity of output)
+# Outlook
+- v (to come - add verbosity of output)
+- create an example/template file for own json
 
 
