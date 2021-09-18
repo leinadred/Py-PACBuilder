@@ -31,7 +31,7 @@ python ./pacbuilder.py -o <destinationfilename>
 (if -o not given, script will generate a name with timestamp)
 
 # Outlook
-- v (to come - add verbosity of output)
+- Argument '-v' (to come - add verbosity of output)
 - create an example/template file for own json
-
+- add function to use this
 
