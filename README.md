@@ -37,4 +37,4 @@ python ./pacbuilder.py -o "destinationfilename"
 - Argument '-v' (to come - add verbosity of output)
 - create an example/template file for own json
 - add function to use this
-
+- error handling and reporting (i.e. Mail or send syslog ..)
